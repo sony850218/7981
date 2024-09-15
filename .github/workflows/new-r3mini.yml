@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/sony850218/cmcc-xr30
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: new-r3mini.config
   DIY_P1_SH: diy-part3.sh
