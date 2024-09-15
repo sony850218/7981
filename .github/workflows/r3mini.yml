@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: 7986系列
+name: r3mini系列
 on:
   repository_dispatch:
   workflow_dispatch:
