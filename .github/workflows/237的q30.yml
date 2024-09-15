@@ -11,7 +11,7 @@
 # See /LICENSE for more information.
 #
 
-name: 237的q30系列
+name: 23.05系列
 on:
   repository_dispatch:
   workflow_dispatch:
