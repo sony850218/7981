@@ -11,16 +11,16 @@
 # See /LICENSE for more information.
 #
 
-name: Lede源码小米&红米2100
+name: 7986系列
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/sony850218/cmcc-xr30
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 2.config
+  CONFIG_FILE: new-r3mini.config
   DIY_P1_SH: diy-part3.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
