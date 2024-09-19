@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/sony850218/immortalwrt
+  REPO_URL: https://github.com/sony850218/r3mini.itb
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: new-r3mini.config
@@ -115,7 +115,7 @@ jobs:
       id: organize
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       run: |
-        cd openwrt/bin/targets/mediatek/filogic/*
+        cd openwrt/bin/targets/*/*
         rm -rf packages
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "status=success" >> $GITHUB_OUTPUT
